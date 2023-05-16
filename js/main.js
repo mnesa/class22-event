@@ -17,10 +17,10 @@ function makeYellow() {
 
 
 //anonymous function
-const makeSky =document.getElementById('make-sky');
-console.log(makeSky);
+const makeSkyBtn =document.getElementById('make-sky');
+console.log(makeSkyBtn);
 makeSkyBtn.onclick= function () {
-  document.body.style.backgroundColor='skybule';
+  document.body.style.backgroundColor='skyBlue';
 }
 
 const goldenBtn =document.getElementById('make-gold');
